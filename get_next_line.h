@@ -28,6 +28,5 @@ char	*ft_strjoin(char *s1, char *s2);
 size_t	ft_strlen(char *s);
 char	*ft_substr(char *s, unsigned int start, size_t len);
 char	*ft_strdup(char *s);
-char	*get_line(int fd, char **buff_rest);
 void	set_line_buff_rest(char **buff, char **buff_rest, int idx);
 #endif
